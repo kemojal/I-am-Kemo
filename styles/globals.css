@@ -1,0 +1,146 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap'); */
+
+@font-face {
+  font-family: "Inter";
+  src: url("/fonts/Inter/Inter-Thin.ttf");
+  font-style: thin;
+  font-weight: 100;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Inter";
+  src: url("/fonts/Inter/Inter-ExtraLight.ttf");
+  font-style: thinner;
+  font-weight: 200;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Inter";
+  src: url("/fonts/Inter/Inter-Light.ttf");
+  font-style: light;
+  font-weight: 300;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Inter";
+  src: url("/fonts/Inter/Inter-Regular.ttf");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Inter";
+  src: url("/fonts/Inter/Inter-Medium.ttf");
+  font-style: medium;
+  font-weight: 500;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Inter";
+  src: url("/fonts/Inter/Inter-SemiBold.ttf");
+  font-style: Semi-bold;
+  font-weight: 600;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Inter";
+  src: url("/fonts/Inter/Inter-Bold.ttf");
+  font-style: bold;
+  font-weight: 700;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Inter";
+  src: url("/fonts/Inter/Inter-ExtraBold.ttf");
+  font-style: bolder;
+  font-weight: 800;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Inter";
+  src: url("/fonts/Inter/Inter-Black.ttf");
+  font-style: bolder;
+  font-weight: 800;
+  font-display: swap;
+}
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+  font-family: "Inter", sans-serif;
+  transition: all 0.2s;
+}
+*::-webkit-scrollbar {
+  display: none;
+}
+html {
+  scroll-behavior: smooth;
+}
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Inter", sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+:root {
+  --bgLight: #fff;
+  --blue: #0270f3;
+  --lightTextTitleColor: #020815;
+  --lightTextPhraseColor: #565a63;
+  --lightNormalTextTitleColor: #8892b0;
+  --hamburgerSpanColor: #575b64;
+  --crimson: #ff0057;
+  --darkBlobOpacity: 0;
+  --lightBlobOpacity: 1;
+}
+/* :root {
+  --bgLight: #020815;
+  --blue: #0270f3;
+  --lightTextTitleColor: #fff;
+  --lightTextPhraseColor: #565a63;
+  --lightNormalTextTitleColor: #d8d8d8;
+  --hamburgerSpanColor: #ffffff;
+  --crimson: #ff0057;
+  --darkBlobOpacity: 1;
+  --lightBlobOpacity: 0;
+} */
+
+body {
+  font-size: 18px;
+  padding-top: 7.5rem;
+  background-color: var(--bgLight);
+}
+.red {
+  color: #ff0057;
+  animation-duration: 0.2s;
+  animation: fadeInOut;
+}
+.green {
+  color: #42b983;
+  animation-duration: 0.2s;
+  animation: fadeInOut;
+}
+.blue {
+  color: #42ccff;
+  animation-duration: 0.2s;
+  animation: fadeInOut;
+}
+
+@keyframes fadeInOut {
+  0% {
+    opacity: 1;
+    margin-top: -100px;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
